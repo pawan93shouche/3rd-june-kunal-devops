@@ -25,7 +25,7 @@ pipeline {
                 echo "Password: ${params.PASSWORD}"
             }
         }
-stage('Example') {
+        stage('Example') {
             steps {
                 echo "Hello ${params.PERSON}"
 
